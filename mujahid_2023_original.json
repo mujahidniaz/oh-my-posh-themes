@@ -87,26 +87,26 @@
         {
           "background": "#0C212F",
           "foreground": "#FFFFFF",
-          "leading_diamond": "\ue0b2",
+          "leading_diamond": "<transparent,#0C212F>\ue0b0</>",
           "properties": {
             "time_format": "15:04"
           },
           "style": "diamond",
           "template": " {{ .CurrentDate | date .Format }} ",
-          "trailing_diamond": "<transparent,#0C212F>\ue0b2</>",
+          "trailing_diamond": "\ue0b0",
           "type": "time"
         },
         {
           "background": "#26BDBB",
           "foreground": "#0C212F",
-          "leading_diamond":"\ue0b2" ,
+          "leading_diamond": "<transparent,#26BDBB>\ue0b0</>",
           "properties": {
             "style": "dallas",
             "threshold": 0
           },
           "style": "diamond",
           "template": " {{ .FormattedMs }}s ",
-          "trailing_diamond": "<transparent,#26BDBB>\ue0b2</>",
+          "trailing_diamond": "\ue0b0",
           "type": "executiontime"
         }
       ],
